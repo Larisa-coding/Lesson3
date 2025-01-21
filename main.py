@@ -38,9 +38,5 @@ def display_text(text, x, y):
     text_surface = font.render(text, True, (255, 255, 255))
     screen.blit(text_surface, (x, y))
     
-running = True
-
-while running:
-    pass
 
 pygame.quit
