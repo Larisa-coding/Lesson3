@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- ... другие ключи и значения -->
+
+    <key>NSUserInterfaceItemAlternatives</key>
+    <array/>
+
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+
+    <key>NSSupportsAutomaticGraphicsSwitching</key>
+    <false/>
+
+    <key>NSHighResolutionCapable</key>
+    <string>True</string>
+
+    <key>NSRequiresAquaSystemAppearance</key>
+    <false/>
+
+    <key>LSEnvironment</key>
+    <dict>
+        <key>DYLD_LIBRARY_PATH</key>
+        <string>/usr/local/lib:/opt/X11/lib</string>
+    </dict>
+
+    <key>LSUIElement</key>
+    <false/>
+
+    <key>NSSupportsSecureRestorableState</key>
+    <false/>
+
+</dict>
+</plist>
